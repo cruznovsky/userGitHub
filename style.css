@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#searchText {
+    display: block;
+    margin-top: 20px;
+    border: 2px solid grey;
+    border-radius: 4px;
+    height: 30px;
+    outline: none;
+}
+
+.userList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.userAccount {
+    padding: 50px;
+}
+
+.userAccount_link {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+}
